@@ -1,0 +1,15 @@
+@font-face {
+font-family: "Normalidad Wide";
+src: url("../font/NormalidadWide-Thin.ttf") format("ttf"),
+url("../font/NormalidadWide-Thin.ttf") format("woff");
+font-style: thin;
+font-weight: normal;
+}
+
+@font-face {
+font-family: "Normalidad Wide";
+src: url("../font/NormalidadWide-Medium.ttf") format("ttf"),
+url("../font/NormalidadWide-Medium.ttf") format("woff");
+font-style: medium;
+font-weight: normal;
+}

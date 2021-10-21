@@ -1,0 +1,383 @@
+/*@font-face {
+  font-family: "Normalidad Wide";
+  src: url("/fonts/NormalidadWide-Thin") format("ttf");*/
+}
+  /*@font-face {
+    font-family: "Normalidad Wide";
+    src: url("/font/Normalidad Wide-Medium-Desktop.otf") format("OpenType");
+    font-weight: bold;
+    font-style: normal;
+  }*/
+
+  /* http://meyerweb.com/eric/tools/css/reset/
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+  	margin: 0;
+  	padding: 0;
+  	border: 0;
+  	font-size: 100%;
+  	font: inherit;
+  	vertical-align: baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+  	display: block;
+  }
+
+
+
+  body{
+    width: 1440px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    background: white;
+
+  	line-height: 1;
+    margin: 0 auto;
+  }
+
+
+  ol, ul {
+  	list-style: none;
+  }
+  blockquote, q {
+  	quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+  	content: '';
+  	content: none;
+  }
+  table {
+  	border-collapse: collapse;
+  	border-spacing: 0;
+  }
+
+
+body{
+  width: 1440px;
+       height: 100% auto;
+       display: block;
+       margin: 0 auto;
+       position: relative;
+       background: #FFFFFF;
+       z-index: 1;
+}
+
+*,
+*:before,
+*:after  {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: normalidad-wide,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+  .first{
+    width: 100%;
+    height: 900px;
+    margin: 0 auto;
+  }
+
+  /*.second{
+    width: 100%;
+    height: 230px;
+    margin: 0 auto;
+    background-color: rgba(255, 244, 226, 1);
+    border-top: 10px solid #000;
+    border-bottom: 8px solid #000;*/
+  }
+
+
+.second {
+  width: 1440px;
+}
+
+.second_text {
+  position: absolute;
+width: 1440px;
+height: 207px;
+left: 0px;
+top: 910px;
+
+background: re;
+
+}
+
+
+  /*.second_text {
+    margin: 60px 200px 100px 360px;
+    font-size: 24px;
+    font-weight: 400;
+    style: normal;
+    text-align: left;*/
+  }
+
+  .section {
+    height: 1940px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 8px solid #000;
+  }
+
+  .regular {
+    width: 50%;
+    border-right: 8px solid #000;
+  }
+
+  .regular_first {
+    height: 100px;
+    margin: 0 auto;
+    border-bottom: 8px solid #000;
+  }
+
+  .regular_title {
+    margin: 60px 40px;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .regular_second {
+    height: 200px;
+    border-bottom: 8px solid #000;
+  }
+
+  .regular_text {
+    margin: 60px 60px;
+    font-size: 24px;
+  }
+
+  .regular_author{
+    height: 665px;
+    border-bottom: 8px solid #000;
+  }
+
+  h1{
+    font-size: 64px;
+  }
+
+  .bold {
+    width: 50%;
+  }
+
+  .bold_first {
+    height: 100px;
+    border-bottom: 8px solid #000;
+  }
+
+  .bold_title {
+    margin: 60px 94px;
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .bold_second {
+    height: 200px;
+    border-bottom: 8px solid #000;
+  }
+
+  .bold_text {
+    margin: 60px 60px;
+    font-size: 24px;
+  }
+
+  .bold_author{
+    height: 665px;
+    border-bottom: 8px solid #000;
+  }
+
+  /*.image {
+    left: 0;
+    text-align: center;
+border-bottom: 8px solid #000;
+  }*/
+
+  .regular_author {
+    /*margin: 60px 200px 100px 360px;*/
+  }
+
+.regular_author_title {
+  margin: 60px 200px 60px 60px;
+  font-size: 64px;
+}
+
+.regular_author_text {
+  font-size: 24px;
+  margin: 60px;
+}
+
+.bold_author {
+  /*margin: 60px 200px 100px 360px;*/
+}
+
+.bold_author_title {
+margin: 60px 200px 60px 60px;
+font-size: 64px;
+}
+
+.bold_author_text {
+font-size: 24px;
+margin: 60px;
+}
+
+.bold_letter {
+  /*position: absolute;
+width: 827px;
+height: 739px;
+left: 810px;
+top: 2327px;
+background-color: #FF603D;*/
+}
+
+.h2 {
+  font-size: 24px;
+  margin: 60px;
+  z-index: 2;
+}
+
+.bold_imageone {
+  width: 50%;
+/*  position: absolute;
+width: 827px;
+height: 739px;
+left: 810px;
+top: 2327px;
+background-color: #FF603D;*/
+
+}
+
+.regular_letter {
+  height: 739px;
+  /*position: absolute;
+width: 827px;
+height: 739px;
+left: 810px;
+top: 2327px;
+background-color: #FF603D;*/
+}
+
+.h2 {
+  font-size: 24px;
+  margin: 60px;
+  z-index: 2;
+}
+
+.regular_imgageone {
+width: 50%;
+}
+
+
+
+
+
+
+.kompozes {
+  height: 741px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.one {
+  width: 50%;
+}
+
+.two {
+  width: 50%;
+}
+
+
+.third{
+  width: 100%;
+  height: 330px;
+  margin: 0 auto;
+  background-color: rgba(255, 244, 226, 1);
+  border-top: 10px solid #000;
+  border-bottom: 8px solid #000;
+}
+
+.third_text {
+  margin: 60px 230px 100px 360px;
+  font-size: 24px;
+  font-weight: 400;
+  style: normal;
+  text-align: left;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features__name {
+  border-right: 8px solid #000;
+}
+
+.weight__text {
+  font-size: 64px;
+  margin: 20px 370px 20px 20px;
+}
+
+.features__text {
+  font-size: 64px;
+  margin: 60px 320px 60px 60px;
+}
+
+
+
+
+
+
+
+
+  /*position: absolute;
+width: -827px;
+height: 743px;
+top: 2327px;
+left: 4px;
+background-color: #FF603D;
+z-index: 1;*/
+}
+
+
+/*.secondsec {
+  height: 641px;
+  display: flex;
+  justify-content: space-between;
+}*/
+
+/*.regletters {
+  width: 50%;
+  border-right: 8px solid #000;
+}
+.boldletters {
+  width: 50%;
+}
+.regimgagefour {
+  width: 50%;
+}
+.boldimagefour {
+  width: 50%;
+}*/
